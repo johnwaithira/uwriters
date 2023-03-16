@@ -1,0 +1,18 @@
+{
+    "name": "user/uwriters",
+    "description": "uwriters",
+    "autoload": {
+        "psr-4": {
+            "User\\Uwriters\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "john waithira"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*"
+    }
+}
